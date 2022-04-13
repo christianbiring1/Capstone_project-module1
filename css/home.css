@@ -16,6 +16,10 @@
   src: url(../fonts/Cocogoose\ Pro\ Light-trial.ttf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
@@ -106,7 +110,8 @@ box-shadow: 0 8px 15px #272a311a;
   padding: 20px 10px;
 }
 
-.program-title {
+.program-title,
+.sponsor-title {
   display: block;
   margin: 0 auto;
   padding: 10px;
@@ -115,14 +120,17 @@ box-shadow: 0 8px 15px #272a311a;
   position: relative;
 }
 
-.program-title::after {
+.program-title::after,
+.sponsor-title::after {
   content: '';
   position: absolute;
   width: 30%;
   background-color: #ec5242;
+  transform: translate(-50%, -50%);
+  left: 13%;
   height: 1px;
-  margin: 25px -65px;
-}
+  margin: 25px;
+} 
 
 .program-container {
   display: grid;
@@ -131,11 +139,7 @@ box-shadow: 0 8px 15px #272a311a;
   padding: 20px 0;
 }
 
-.motivation,
-.forum,
-.donation,
-.support,
-.workshop {
+.program-card {
   background-color: rgba(211, 211, 211, 0.2);
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -155,6 +159,11 @@ box-shadow: 0 8px 15px #272a311a;
   font-weight: bold;
 }
 
+.left img {
+  max-width: 30%;
+  height: auto;
+}
+
 .join-btn {
   width: 290px;
   margin: 20px auto;
@@ -169,6 +178,48 @@ box-shadow: 0 8px 15px #272a311a;
   color: #fff;
   font-size: 1.2rem;
   padding: 1.5rem;
+}
+
+.join-btn a:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+#sponsor {
+  margin-top: 50px;
+}
+
+.sponsor-container {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 80px;
+  margin: 30px 0;
+}
+
+.sponsor1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponspo-avatar {
+  width: 200px;
+  position: relative;
+  z-index: 1;
+}
+
+.img {
+  width: 50%;
+  position: absolute;
+  z-index: -1;
+  top: -1.5rem;
+  left: -1.5rem;
+}
+
+.portrait {
+  width: 80%;
+  height: auto;
 }
 
 
@@ -243,7 +294,7 @@ box-shadow: 0 8px 15px #272a311a;
   .header-bottom .nav-link {
     text-decoration: none;
     color: #272a31;
-    font-family: 'BIZ UDPGothic', sans-serif;
+    font-family: 'cocogoose1','BIZ UDPGothic', sans-serif;
   }
   
   .nav-item .campain {
@@ -295,30 +346,33 @@ box-shadow: 0 8px 15px #272a311a;
   }
   
   .program-title::after {
+    transform: translate(-50%, -50%);
+    left: 20%;
     height: 1px;
-    margin: 40px -100px;
+    margin: 45px 25px;
   }
   
   .program-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    display: flex;
     align-items: center;
     padding: 20px 0;
-    margin: 10px auto;
+    margin: 20px auto;
     width: 100%;
   }
   
-  .motivation,
-  .forum,
-  .donation,
-  .support,
-  .workshop {
-    background-color: rgba(211, 211, 211, 0.2);
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+  .program-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 250px;
     padding: 10px;
+  }
+
+  .program-card:hover {
+    border: 1px solid #d3d3d3;
+    transform: scale(0.95);
+    cursor: pointer;
   }
   
   .program .left {
@@ -326,11 +380,19 @@ box-shadow: 0 8px 15px #272a311a;
     grid-template-rows: 1fr 1fr;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
+    width: 50%;
   }
   
   .left span {
     color: #ec5242;
     font-weight: bold;
+  }
+
+  .left img {
+    max-width: 50%;
+    height: auto;
+    color: #fff;
   }
   
   .join-btn {
@@ -348,12 +410,15 @@ box-shadow: 0 8px 15px #272a311a;
     font-size: 1.2rem;
     padding: 1.5rem;
   }
+
+  .portrait {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media  only screen and (min-width: 1260px) {
   .program-container {
-    padding: 20px 0;
-    margin: 10px auto;
     width: 80%;
   }
   
