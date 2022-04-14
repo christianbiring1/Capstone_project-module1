@@ -20,8 +20,7 @@
 .about-quote {
   display: inline-block;
   color: #ec5242;
-  font-family: 'cocogoose1', 'BIZ UDPGothic',
-    sans-serif;
+  font-family: 'cocogoose1', sans-serif;
   font-size: 1rem;
   padding-bottom: 5px;
 }
@@ -29,7 +28,7 @@
 .about-goal {
   margin-top: 10px;
   color: #ec5242;
-  font-family: 'cocogoose', 'BIZ UDPGothic', sans-serif;
+  font-family: 'cocogoose', sans-serif;
   text-transform: uppercase;
 }
 
@@ -40,7 +39,7 @@
   width: 70%;
   border: 3px solid #d3d3d3;
   margin-bottom: 30px;
-  font-family: 'cocogoose1';
+  font-family: 'cocogoose1', sans-serif;
   background-color: #fff;
   box-shadow: 5px 5px 5px #d3d3d3, -5px -5px 5px #d3d3d3;
 }
@@ -58,7 +57,7 @@
 }
 
 .concern p {
-  font-family: 'cocogoose1';
+  font-family: 'cocogoose1', sans-serif;
   font-size: 0.8rem;
 }
 
@@ -68,7 +67,7 @@
 }
 
 .past-activities p {
-  font-family: 'cocogoose1';
+  font-family: 'cocogoose1', sans-serif;
   font-size: 0.8rem;
   padding: 20px 0;
 }
@@ -81,7 +80,7 @@
   justify-content: space-around;
 }
 
-.activity1{
+.activity1 {
   position: relative;
   text-align: center;
   display: flex;
@@ -111,12 +110,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'cocogoose1';
+  font-family: 'cocogoose1', sans-serif;
 }
 
 .date {
   font-size: 1.4rem;
-  font-family: 'cocogoose';
+  font-family: 'cocogoose', sans-serif;
 }
 
 .about-last {
@@ -129,5 +128,3 @@
   align-items: center;
   padding: 30px;
 }
-
-

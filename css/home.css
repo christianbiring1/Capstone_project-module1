@@ -28,13 +28,12 @@ body {
 }
 
 .navbar {
-position: fixed;
-z-index: 999;
-background: #fff;
-width: 100%;
-clear: both;
-box-shadow: 0 8px 15px #272a311a;
-
+  position: fixed;
+  z-index: 999;
+  background: #fff;
+  width: 100%;
+  clear: both;
+  box-shadow: 0 8px 15px #272a311a;
 }
 
 .hamburger {
@@ -73,8 +72,7 @@ box-shadow: 0 8px 15px #272a311a;
 .quote {
   display: inline-block;
   color: #ec5242;
-  font-family: 'cocogoose1','BIZ UDPGothic',
-  sans-serif;
+  font-family: 'cocogoose1', sans-serif;
   font-weight: 200;
   font-size: 0.8rem;
 }
@@ -82,7 +80,7 @@ box-shadow: 0 8px 15px #272a311a;
 .goal {
   margin-top: 10px;
   color: #ec5242;
-  font-family: 'cocogoose','BIZ UDPGothic',sans-serif;
+  font-family: 'cocogoose', sans-serif;
   text-transform: uppercase;
 }
 
@@ -133,7 +131,7 @@ box-shadow: 0 8px 15px #272a311a;
   left: 40%;
   height: 1px;
   margin: 30px 25px;
-} 
+}
 
 .program-container {
   display: grid;
@@ -280,7 +278,6 @@ hr {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: fit-content;
   margin: 30px 0 0;
   justify-content: space-around;
 }
@@ -316,11 +313,10 @@ hr {
 .partner-container figcaption {
   color: #d3d3d3;
   font-size: 0.7rem;
-  font-family: 'cocogoose1';
+  font-family: 'cocogoose1', sans-serif;
 }
 
 .last {
-  height: fit-content;
   display: flex;
   padding: 20px;
   flex-direction: column;
@@ -333,7 +329,7 @@ hr {
     font-size: 16px;
     
   }
-  
+
   .navbar {
     position: fixed;
     background-color: #fff;
@@ -347,7 +343,7 @@ hr {
   .hamburger {
     display: none;
   }
-  
+
   .top-header {
     display: block;
     width: 100%;
@@ -366,41 +362,41 @@ hr {
     list-style-type: none;
     margin: 0 8px;
   }
-  
+
   .top-header .nav-link {
     color: #fff;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
   }
-  
+
   .header-bottom {
     display: flex;
     justify-content: space-around;
     height: 70px;
   }
-  
+
   .logo {
     padding: 25px 0;
   }
-  
+
   .main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 0;
   }
-  
+
   .main-nav .nav-item {
     list-style-type: none;
     margin: 0 20px;
   }
-  
+
   .header-bottom .nav-link {
     text-decoration: none;
     color: #272a31;
-    font-family: 'cocogoose1','BIZ UDPGothic', sans-serif;
+    font-family: 'cocogoose1', sans-serif;
   }
-  
+
   .nav-item .campain {
     color: #ec5242;
     border: 3px solid #ec5242;
@@ -410,25 +406,25 @@ hr {
   .wrapper {
     top: 60px;
   }
-  
+
   .introduction {
     margin: 5rem;
     width: 60%;
   }
-  
+
   .quote {
     width: 550px;
     font-size: 1rem;
   }
-  
+
   .goal {
     margin: 20px 0;
   }
-  
+
   .ideal {
     padding: 10px;
   }
-  
+
   .ideal span {
     border: 4px solid #d3d3d3;
     padding: 15px;
@@ -439,16 +435,16 @@ hr {
   .work-hour {
     margin: 0 0 10px;
   }
-  
+
   .program {
     padding: 40px 10px;
   }
-  
+
   .program-title {
     width: 250px;
     font-size: 1.3rem;
   }
-  
+
   .program-title::after {
     transform: translate(-50%, -50%);
     left: 40%;
@@ -465,7 +461,6 @@ hr {
     gap: 20px;
   }
   
-  
   .program .left {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -474,7 +469,7 @@ hr {
     margin: 0 auto;
     width: 50%;
   }
-  
+
   .program-card {
     background-color: rgba(255, 255, 255, 0.2);
     display: flex;
@@ -494,13 +489,13 @@ hr {
     height: auto;
     color: #fff;
   }
-  
+
   .join-btn {
     width: 290px;
     margin: 20px auto;
     text-align: center;
   }
-  
+
   .join-btn a {
     display: inline-block;
     width: 100%;
@@ -532,7 +527,7 @@ hr {
     top: -1rem;
     left: -1rem;
   }
-
+  
   .portrait {
     width: 100%;
     height: auto;
@@ -577,7 +572,7 @@ hr {
   .partner-container figcaption {
     color: #d3d3d3;
     font-size: 1rem;
-    font-family: 'cocogoose1';
+    font-family: 'cocogoose1', sans-serif;
   }
   
   .last {
