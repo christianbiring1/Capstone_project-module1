@@ -574,7 +574,7 @@ hr {
     font-family: 'cocogoose1', sans-serif;
   }
 
- .last {
+  .last {
     height: 50px;
     display: flex;
     flex-direction: row;
