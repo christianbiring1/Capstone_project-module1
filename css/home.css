@@ -281,8 +281,8 @@ hr {
   flex-direction: row;
   width: 100%;
   height: fit-content;
-  margin: 30px;
-  justify-content: flex-start;
+  margin: 30px 0 0;
+  justify-content: space-around;
 }
 
 .partner-title {
@@ -310,6 +310,7 @@ hr {
 
 .partner-container figure {
   padding-bottom: 20px;
+  cursor: pointer;
 }
 
 .partner-container figcaption {
@@ -318,9 +319,10 @@ hr {
   font-family: 'cocogoose1';
 }
 
-.footer {
+.last {
   height: fit-content;
   display: flex;
+  padding: 20px;
   flex-direction: column;
   align-items: center;
 }
@@ -546,7 +548,7 @@ hr {
     flex-direction: row;
     width: 80%;
     height: 200px;
-    margin: 50px auto;
+    margin: 50px auto 0;
     justify-content: space-between;
   }
   
@@ -578,12 +580,13 @@ hr {
     font-family: 'cocogoose1';
   }
   
-  .footer {
-    height: 150px;
+  .last {
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 30px;
   }
 }
 

@@ -1,0 +1,133 @@
+@import url(./home.css);
+
+.navbar {
+  top: 0;
+  position: fixed;
+}
+
+.about-wrapper {
+  position: relative;
+  top: 200px;
+  width: 100%;
+}
+
+.about-us,
+.contact {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.about-quote {
+  display: inline-block;
+  color: #ec5242;
+  font-family: 'cocogoose1', 'BIZ UDPGothic',
+    sans-serif;
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+.about-goal {
+  margin-top: 10px;
+  color: #ec5242;
+  font-family: 'cocogoose', 'BIZ UDPGothic', sans-serif;
+  text-transform: uppercase;
+}
+
+.about-ideal {
+  line-height: 1.5rem;
+  padding: 10px;
+  margin: 20px auto;
+  width: 70%;
+  border: 3px solid #d3d3d3;
+  margin-bottom: 30px;
+  font-family: 'cocogoose1';
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #d3d3d3, -5px -5px 5px #d3d3d3;
+}
+
+.about-logo {
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  margin-top: 80px;
+  text-align: center;
+  height: 300px;
+}
+
+.title {
+  padding: 40px 0 15px;
+}
+
+.concern p {
+  font-family: 'cocogoose1';
+  font-size: 0.8rem;
+}
+
+.past-activities {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.past-activities p {
+  font-family: 'cocogoose1';
+  font-size: 0.8rem;
+  padding: 20px 0;
+}
+
+.activities-details {
+  width: 50%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.activity1{
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  color: #fff;
+  height: 250px;
+  background: linear-gradient(#ec524280, #ec524280), url('../images/feature-image003.jpg') center/cover no-repeat;
+}
+
+.activity2 {
+  position: relative;
+  text-align: center;
+  width: 300px;
+  color: #fff;
+  height: 250px;
+  background: linear-gradient(#ec524280, #ec524280), url('../images/walk-the-talk-2018.jpg') center/cover no-repeat;
+}
+
+.activity1 div,
+.activity2 div {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'cocogoose1';
+}
+
+.date {
+  font-size: 1.4rem;
+  font-family: 'cocogoose';
+}
+
+.about-last {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+
