@@ -111,12 +111,15 @@ box-shadow: 0 8px 15px #272a311a;
 }
 
 .program-title,
-.sponsor-title {
+.sponsor-title,
+.partner-title {
+  text-align: center;
   display: block;
   margin: 0 auto;
   padding: 10px;
   width: 250px;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  text-transform: uppercase;
   position: relative;
 }
 
@@ -124,12 +127,12 @@ box-shadow: 0 8px 15px #272a311a;
 .sponsor-title::after {
   content: '';
   position: absolute;
-  width: 30%;
+  width: 20%;
   background-color: #ec5242;
   transform: translate(-50%, -50%);
-  left: 13%;
+  left: 40%;
   height: 1px;
-  margin: 25px;
+  margin: 30px 25px;
 } 
 
 .program-container {
@@ -143,8 +146,15 @@ box-shadow: 0 8px 15px #272a311a;
   background-color: rgba(211, 211, 211, 0.2);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
   gap: 10px;
   padding: 10px;
+}
+
+.program-card:hover {
+  border: 1px solid #d3d3d3;
+  transform: scale(0.95);
+  cursor: pointer;
 }
 
 .program .left {
@@ -193,7 +203,7 @@ box-shadow: 0 8px 15px #272a311a;
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  gap: 80px;
+  gap: 50px;
   margin: 30px 0;
 }
 
@@ -201,6 +211,10 @@ box-shadow: 0 8px 15px #272a311a;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.sponsor-name {
+  margin-left: -80px;
 }
 
 .sponspo-avatar {
@@ -218,18 +232,106 @@ box-shadow: 0 8px 15px #272a311a;
 }
 
 .portrait {
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
+.sponsor-info {
+  text-align: center;
+}
+
+.sponsor-bio {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.8rem;
+}
+
+.position {
+  color: #ec5242;
+  font-family: 'cocogoose1', sans-serif;
+  position: relative;
+  font-style: italic;
+}
+
+hr {
+  position: absolute;
+  width: 50px;
+  margin: 10px 20px;
+}
+
+.background {
+  padding: 10px 0;
+  font-family: 'cocogoose1', sans-serif;
+}
+
+.partner {
+  background-color: #272a31;
+  width: 100%;
+}
+
+.partner img {
+  width: 40%;
+  height: auto;
+}
+
+.partner-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: fit-content;
+  margin: 30px;
+  justify-content: flex-start;
+}
+
+.partner-title {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 250px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  color: #d3d3d3;
+}
+
+.partner-title::after {
+  content: '';
+  position: absolute;
+  width: 20%;
+  background-color: #ec5242;
+  transform: translate(-50%, -50%);
+  left: 40%;
+  height: 1px;
+  margin: 30px 25px;
+}
+
+.partner-container figure {
+  padding-bottom: 20px;
+}
+
+.partner-container figcaption {
+  color: #d3d3d3;
+  font-size: 0.7rem;
+  font-family: 'cocogoose1';
+}
+
+.footer {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 @media only screen and (min-width: 768px) {
   body {
     background-position-y: 100px;
     font-size: 16px;
-
+    
   }
-
+  
   .navbar {
     position: fixed;
     background-color: #fff;
@@ -239,7 +341,7 @@ box-shadow: 0 8px 15px #272a311a;
     width: 100%;
     box-shadow: 0 8px 15px rgba(39, 42, 49, 0.3);
   }
-
+  
   .hamburger {
     display: none;
   }
@@ -306,17 +408,17 @@ box-shadow: 0 8px 15px #272a311a;
   .wrapper {
     top: 60px;
   }
-
+  
   .introduction {
     margin: 5rem;
     width: 60%;
   }
-
+  
   .quote {
     width: 550px;
     font-size: 1rem;
   }
-
+  
   .goal {
     margin: 20px 0;
   }
@@ -335,7 +437,7 @@ box-shadow: 0 8px 15px #272a311a;
   .work-hour {
     margin: 0 0 10px;
   }
-
+  
   .program {
     padding: 40px 10px;
   }
@@ -347,7 +449,7 @@ box-shadow: 0 8px 15px #272a311a;
   
   .program-title::after {
     transform: translate(-50%, -50%);
-    left: 20%;
+    left: 40%;
     height: 1px;
     margin: 45px 25px;
   }
@@ -358,22 +460,9 @@ box-shadow: 0 8px 15px #272a311a;
     padding: 20px 0;
     margin: 20px auto;
     width: 100%;
+    gap: 20px;
   }
   
-  .program-card {
-    background-color: rgba(255, 255, 255, 0.2);
-    display: flex;
-    flex-direction: column;
-    width: 270px;
-    height: 250px;
-    padding: 10px;
-  }
-
-  .program-card:hover {
-    border: 1px solid #d3d3d3;
-    transform: scale(0.95);
-    cursor: pointer;
-  }
   
   .program .left {
     display: grid;
@@ -384,11 +473,20 @@ box-shadow: 0 8px 15px #272a311a;
     width: 50%;
   }
   
+  .program-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    min-height: 250px;
+    padding: 10px;
+  }
+
   .left span {
     color: #ec5242;
     font-weight: bold;
   }
-
+  
   .left img {
     max-width: 50%;
     height: auto;
@@ -410,16 +508,87 @@ box-shadow: 0 8px 15px #272a311a;
     font-size: 1.2rem;
     padding: 1.5rem;
   }
+  
+  .sponsor-container {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  .sponsor1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .img {
+    width: 70%;
+    top: -1rem;
+    left: -1rem;
+  }
 
   .portrait {
     width: 100%;
     height: auto;
+  }
+
+  .partner img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .partner-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 200px;
+    margin: 50px auto;
+    justify-content: space-between;
+  }
+  
+  .partner-title {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 250px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    position: relative;
+    color: #d3d3d3;
+  }
+  
+  .partner-title::after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    background-color: #ec5242;
+    transform: translate(-50%, -50%);
+    left: 40%;
+    height: 1px;
+    margin: 30px 25px;
+  }
+  
+  .partner-container figcaption {
+    color: #d3d3d3;
+    font-size: 1rem;
+    font-family: 'cocogoose1';
+  }
+  
+  .footer {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 
 @media  only screen and (min-width: 1260px) {
   .program-container {
     width: 80%;
-  }
-  
+  }  
 }
