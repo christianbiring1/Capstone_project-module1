@@ -328,7 +328,7 @@ hr {
     background-position-y: 100px;
     font-size: 16px;
   }
-  
+
   .navbar {
     position: fixed;
     background-color: #fff;
@@ -338,18 +338,18 @@ hr {
     width: 100%;
     box-shadow: 0 8px 15px rgba(39, 42, 49, 0.3);
   }
-  
+
   .hamburger {
     display: none;
   }
-  
+
   .top-header {
     display: block;
     width: 100%;
     background-color: #272a31;
     padding: 5px;
   }
-  
+
   .top-header-navbar {
     display: flex;
     flex-direction: row;
@@ -361,7 +361,7 @@ hr {
     list-style-type: none;
     margin: 0 8px;
   }
-  
+
   .top-header .nav-link {
     color: #fff;
     text-decoration: none;
@@ -459,13 +459,14 @@ hr {
     width: 100%;
     gap: 20px;
   }
-  
+
   .program .left {
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto;width: 50%;
+    margin: 0 auto;
+    width: 50%;
   }
 
   .program-card {
@@ -481,13 +482,13 @@ hr {
     color: #ec5242;
     font-weight: bold;
   }
-  
+
   .left img {
     max-width: 50%;
     height: auto;
     color: #fff;
   }
-  
+
   .join-btn {
     width: 290px;
     margin: 20px auto;
@@ -503,7 +504,7 @@ hr {
     font-size: 1.2rem;
     padding: 1.5rem;
   }
-  
+
   .sponsor-container {
     padding-top: 40px;
     display: grid;
@@ -513,7 +514,7 @@ hr {
     margin: 20px auto;
     width: 90%;
   }
-  
+
   .sponsor1 {
     display: flex;
     flex-direction: row;
@@ -530,12 +531,12 @@ hr {
     width: 100%;
     height: auto;
   }
-  
+
   .partner img {
     width: 100px;
     height: auto;
   }
-  
+
   .partner-container {
     display: flex;
     flex-direction: row;
@@ -572,9 +573,10 @@ hr {
     font-size: 1rem;
     font-family: 'cocogoose1', sans-serif;
   }
-  
-  .last {
-    height: 50px;display: flex;
+
+ .last {
+    height: 50px;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
