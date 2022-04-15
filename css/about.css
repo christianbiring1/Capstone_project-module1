@@ -56,9 +56,23 @@
   padding: 40px 0 15px;
 }
 
+.title::after {
+  content: '';
+  position: absolute;
+  width: 10%;
+  background-color: #ec5242;
+  transform: translate(-50%, -50%);
+  left: 48%;
+  height: 1px;
+  margin: 5px 25px;
+}
+
 .concern p {
   font-family: 'cocogoose1', sans-serif;
   font-size: 0.8rem;
+  width: 90%;
+  margin: 20px auto;
+  text-align: justify;
 }
 
 .past-activities {
@@ -101,6 +115,12 @@
   background: linear-gradient(#ec524280, #ec524280), url('../images/walk-the-talk-2018.jpg') center/cover no-repeat;
 }
 
+.activity1:hover,
+.activity2:hover {
+  border: 3px solid #ec5242;
+  cursor: pointer;
+}
+
 .activity1 div,
 .activity2 div {
   position: absolute;
@@ -127,4 +147,52 @@
   justify-content: space-around;
   align-items: center;
   padding: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar.active {
+    background: linear-gradient(90deg, rgba(211, 211, 211, 0.8), rgb(236, 82, 66));
+    position: fixed;
+    height: 2155px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .about-wrapper {
+    top: 120px;
+  }
+
+  .about-us {
+    width: 85%;
+  }
+
+  .about-ideal {
+    width: 90%;
+  }
+
+  .past-activities p {
+    padding: 20px;
+    text-align: justify;
+  }
+
+  .activities-details {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title::after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    background-color: #ec5242;
+    transform: translate(-50%, -50%);
+    left: 40%;
+    height: 1px;
+    margin: 5px 25px;
+  }
 }

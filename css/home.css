@@ -36,6 +36,16 @@ body {
   box-shadow: 0 8px 15px #272a311a;
 }
 
+.navbar.active {
+  background: linear-gradient(90deg, #d3d3d3cc, #ec5242);
+  position: fixed;
+  height: 3900px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .hamburger {
   display: block;
   cursor: pointer;
@@ -51,9 +61,54 @@ body {
   background-color: #272a31;
 }
 
+.hamburger.active {
+  margin: 0 15px 10px;
+  float: right;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(20px) rotate(45deg);
+  background-color: #fff;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-7.5px) rotate(-45deg);
+  background-color: #fff;
+}
+
 .top-header,
 .header-bottom {
   display: none;
+}
+
+.header-bottom.active {
+  display: inline-block;
+  margin: 20px 30px;
+}
+
+.logo.active {
+  display: none;
+}
+
+.header-bottom .nav-link.active {
+  text-decoration: none;
+  color: #272a31;
+  font-family: 'cocogoose', sans-serif;
+}
+
+.main-nav.active {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-nav .nav-item.active {
+  list-style-type: none;
+  margin: 0 20px;
 }
 
 .wrapper {
