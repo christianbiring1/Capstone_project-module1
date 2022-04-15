@@ -24,16 +24,16 @@ hamburger.addEventListener('click', () => {
 
 headerLink.forEach((link) => {
   link.addEventListener('click', () => {
-      hamburger.classList.remove('active');
-      navBar.classList.remove('active');
-      header.classList.remove('active');
-      headerLink.forEach((link) => {
+    hamburger.classList.remove('active');
+    navBar.classList.remove('active');
+    header.classList.remove('active');
+    headerLink.forEach((link) => {
       link.classList.remove('active');
     });
     mainNav.classList.remove('active');
-    navItem.forEach((item) => { 
+    navItem.forEach((item) => {
       item.classList.remove('active');
     });
-  })
+  });
   logo.style.display = 'none';
-})
+});
