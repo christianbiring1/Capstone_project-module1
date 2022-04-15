@@ -134,6 +134,6 @@ seeMorebtn.addEventListener('click', () => {
       element.classList.remove('seeMore');
       seeMorebtn.textContent = 'LESS';
       seeMorebtn.style.display = 'none';
-    };
-  })
+    }
+  });
 });
