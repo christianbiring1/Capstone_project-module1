@@ -160,6 +160,10 @@
     bottom: 0;
   }
 
+  .logo {
+    visibility: hidden;
+  }
+  
   .about-wrapper {
     top: 120px;
   }
