@@ -9,12 +9,10 @@
 - HTML
 - CSS
 - JavaScript
-- Bootstrap
-- GitHubflow
 
 ## Live Demo (if available)
 
-[You can check the live demo of my project here](https://christianbiring1.github.io/Capstone_project-module1/)
+# [You can check the live demo of my project here](https://christianbiring1.github.io/Capstone_project-module1/)
 
 ### Prerequisites
 
@@ -24,7 +22,7 @@
 
 - git clone git@github.com:christianbiring1/Capstone_project-module1.git
 - cd Capstone_project-module1
-- code
+- open with live server
 
 ## Author
 
@@ -46,7 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Want to acknowledge [Cindy Shin in Behance](). who was the designer of the tamplate that serve me for reference
+- Want to acknowledge [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). who was the designer of the tamplate that serve me for reference
 - Hat tip to anyone who will take a glance to this project
 
 ## 📝 License
