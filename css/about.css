@@ -100,11 +100,6 @@
   text-align: justify;
   font-family: 'cocogoose1', sans-serif;
   font-size: 0.8rem;
-}
-
-.past-activities p {
-  font-family: 'cocogoose1', sans-serif;
-  font-size: 0.8rem;
   padding: 20px;
 }
 
@@ -175,7 +170,6 @@
 .about-last {
   background-color: #000;
   color: #fff;
-  height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -216,7 +210,7 @@
   .about-goal {
     font-size: 2rem;
   }
-
+  
   .about-ideal {
     line-height: 1.5rem;
     padding: 10px;
@@ -228,7 +222,7 @@
     background-color: #fff;
     box-shadow: 5px 5px 5px #d3d3d3, -5px -5px 5px #d3d3d3;
   }
-  
+
   .title::after {
     content: '';
     position: absolute;
@@ -239,19 +233,19 @@
     height: 1px;
     margin: 5px 25px;
   }
-  
+
   .past-activities {
     text-align: center;
     margin: 40px 0;
   }
-  
+
   .past-activities p {
     font-family: 'cocogoose1', sans-serif;
     font-size: 0.8rem;
     padding: 20px 0;
     text-align: center;
   }
-  
+
   .activities-details {
     width: 50%;
     margin: 50px auto;
@@ -262,19 +256,13 @@
   }
 
   .about-last {
-    height: 50px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; */
     padding: 30px;
     height: 150px;
     text-align: center;
-    /* margin: 0 auto; */
     display: block;
     position: relative;
   }
-  
+
   .about-last-container {
     display: flex;
     flex-direction: row;

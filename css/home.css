@@ -470,7 +470,7 @@ body {
     visibility: visible;
     opacity: 1;
   }
-  
+
   .logo img {
     position: absolute;
     width: 100%;
@@ -479,7 +479,7 @@ body {
     left: 0;
     bottom: 0;
     height: 70px;
-    display: block; 
+    display: block;
     visibility: visible;
     opacity: 1;
   }
@@ -690,7 +690,6 @@ body {
   }
 
   .last {
-    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
