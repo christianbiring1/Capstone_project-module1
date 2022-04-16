@@ -92,10 +92,15 @@ body {
 
 .logo {
   visibility: hidden;
+  opacity: 0;
+}
+
+.logo img {
+  display: none;
 }
 
 .logo.active {
-  visibility: hidden;
+  opacity: 0;
 }
 
 .header-bottom .nav-link.active {
@@ -125,7 +130,7 @@ body {
 .introduction {
   margin: 0 auto;
   width: 90%;
-  padding: 70px 20px;
+  padding: 50px 20px;
 }
 
 .quote {
@@ -431,7 +436,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: calc(15% - 20px);
+    margin-right: calc(10% - 20px);
   }
 
   .top-header .nav-item {
@@ -452,19 +457,37 @@ body {
   }
 
   .logo {
-    padding: 25px 0;
+    padding: 0;
+    width: 20%;
+    position: relative;
+    display: inline-block;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .logo img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    display: block; 
+    visibility: visible;
+    opacity: 1;
   }
 
   .main-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 25px 0;
   }
 
   .main-nav .nav-item {
     list-style-type: none;
-    margin: 0 20px;
+    margin: 0 10px;
   }
 
   .header-bottom .nav-link {
@@ -490,11 +513,12 @@ body {
 
   .quote {
     width: 550px;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .goal {
     margin: 20px 0;
+    font-size: 2rem;
   }
 
   .ideal {

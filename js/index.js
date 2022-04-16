@@ -50,7 +50,7 @@ const data = [
   },
   {
     featureImage: './images/blank-chess-board.gif',
-    sponsorImage: '../images/spons1.jpg',
+    sponsorImage: './images/spons1.jpg',
     sponsorName: 'Prophet TB Joshua',
     sponsorPosition: 'Temitope Balogun Joshua, popularly known as T. B. Joshua, was a Nigerian charismatic pastor, televangelist, and philanthropist.',
     sponsorBackground: 'He was the leader and founder of Synagogue, Church of All Nations, a Christian megachurch that runs the Emmanuel TV television station from Lagos.',
@@ -67,7 +67,7 @@ const data = [
   },
   {
     featureImage: './images/blank-chess-board.gif',
-    sponsorImage: '../images/sponsor4.jpg',
+    sponsorImage: './images/sponsor4.jpg',
     sponsorName: 'Michael DuBois',
     sponsorPosition: 'Electrical engineer and studying full stack web-dev at Microverse',
     sponsorBackground: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla provident corrupti deserunt vel quasi. Labore porro sapiente dicta veritatis ad.',
