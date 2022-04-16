@@ -96,7 +96,6 @@
 }
 
 .past-activities p {
-  padding: 20px;
   text-align: justify;
   font-family: 'cocogoose1', sans-serif;
   font-size: 0.8rem;
@@ -206,11 +205,11 @@
   .about-quote {
     font-size: 1.2rem;
   }
-  
+
   .about-goal {
     font-size: 2rem;
   }
-  
+
   .about-ideal {
     line-height: 1.5rem;
     padding: 10px;
