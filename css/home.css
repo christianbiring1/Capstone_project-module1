@@ -401,8 +401,14 @@ body {
 .last {
   display: flex;
   padding: 20px;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+}
+
+.last img {
+  width: 20%;
+  height: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -599,11 +605,15 @@ body {
   .join-btn a {
     display: inline-block;
     width: 100%;
-    text-decoration: none;
-    background-color: #ec5242;
+    text-decoration: underline;
+    background-color: transparent;
     color: #fff;
     font-size: 1.2rem;
     padding: 1.5rem;
+  }
+
+  .join-btn a:hover {
+    border: none;
   }
 
   .sponsor-container {
@@ -686,6 +696,15 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 30px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    width: 750px;
+  }
+
+  .last img {
+    width: 20%;
+    height: 120px;
   }
 }
 

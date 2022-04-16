@@ -32,6 +32,11 @@
 .contact {
   width: 90%;
   margin: 10px auto;
+  text-align: center;
+}
+
+.contact a {
+  color: #000;
 }
 
 .about-quote {
@@ -175,7 +180,21 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 30px;
+  padding: 50px;
+  height: 100px;
+}
+
+.about-last-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-last img {
+  width: 20%;
+  height: 90px;
 }
 
 @media screen and (min-width: 768px) {
@@ -240,5 +259,37 @@
     flex-direction: row;
     justify-content: space-around;
     gap: 0;
+  }
+
+  .about-last {
+    height: 50px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; */
+    padding: 30px;
+    height: 150px;
+    text-align: center;
+    /* margin: 0 auto; */
+    display: block;
+    position: relative;
+  }
+  
+  .about-last-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 20px;
+    margin-left: 100px;
+    position: absolute;
+    left: 20%;
+  }
+
+  .last img {
+    width: 20%;
+    height: 120px;
   }
 }
