@@ -12,6 +12,8 @@
 
 ## Live Demo (if available)
 
+[You can see the live Demo of the project here](https://christianbiring1.github.io/Capstone_project-module1/)
+
 ### Prerequisites
 
 - Have completed all the previous learning of modules.
