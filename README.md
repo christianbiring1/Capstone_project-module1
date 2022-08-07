@@ -2,7 +2,7 @@
 
 > Description of the project.
 
-- In this capstone project I have built is based on an online website for a conference. We have been provided some design guidelines to create the website, but I have personalized the content, i.e., instead of a conference I have built a website for geniune charity and care.
+- In this capstone project I have built a website layout based on an online website for a conference. I have been provided some design guidelines to create the website, but I have personalized the content, i.e., instead of a conference I have built a website for geniune charity and care.
 
 ## Built With
 
@@ -10,7 +10,7 @@
 - CSS
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
 [You can see the live Demo of the project here](https://christianbiring1.github.io/Capstone_project-module1/)
 
