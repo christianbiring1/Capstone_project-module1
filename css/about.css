@@ -1,0 +1,282 @@
+@import url(./home.css);
+
+.navbar {
+  top: 0;
+  position: fixed;
+}
+
+.navbar.active {
+  background: linear-gradient(90deg, rgba(211, 211, 211, 0.8), rgb(236, 82, 66));
+  position: fixed;
+  height: 2155px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.logo {
+  visibility: hidden;
+}
+
+.about-wrapper {
+  top: 120px;
+  position: relative;
+}
+
+.about-us {
+  width: 85%;
+  margin: 10px auto;
+}
+
+.contact {
+  width: 90%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.contact a {
+  color: #000;
+}
+
+.about-quote {
+  display: inline-block;
+  color: #ec5242;
+  font-family: 'cocogoose1', sans-serif;
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+.about-goal {
+  margin-top: 10px;
+  color: #ec5242;
+  font-family: 'cocogoose', sans-serif;
+  text-transform: uppercase;
+}
+
+.about-ideal {
+  width: 90%;
+  line-height: 1.5rem;
+  padding: 10px;
+  margin: 20px auto;
+  border: 3px solid #d3d3d3;
+  margin-bottom: 30px;
+  font-family: 'cocogoose1', sans-serif;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #d3d3d3, -5px -5px 5px #d3d3d3;
+}
+
+.about-logo {
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.about-logo img {
+  width: 200px;
+  height: auto;
+}
+
+.title {
+  padding: 40px 0 15px;
+}
+
+.concern p {
+  font-family: 'cocogoose1', sans-serif;
+  font-size: 0.8rem;
+  width: 90%;
+  margin: 10px auto;
+  text-align: justify;
+}
+
+.past-activities {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.past-activities p {
+  text-align: justify;
+  font-family: 'cocogoose1', sans-serif;
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+.activities-details {
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  width: 20%;
+  background-color: #ec5242;
+  transform: translate(-50%, -50%);
+  left: 40%;
+  height: 1px;
+  margin: 5px 25px;
+}
+
+.activity1 {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  color: #fff;
+  height: 250px;
+  background: linear-gradient(#ec524280, #ec524280), url('../images/feature-image003.jpg') center/cover no-repeat;
+}
+
+.activity2 {
+  position: relative;
+  text-align: center;
+  width: 300px;
+  color: #fff;
+  height: 250px;
+  background: linear-gradient(#ec524280, #ec524280), url('../images/walk-the-talk-2018.jpg') center/cover no-repeat;
+}
+
+.activity1:hover,
+.activity2:hover {
+  border: 3px solid #ec5242;
+  cursor: pointer;
+}
+
+.activity1 div,
+.activity2 div {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'cocogoose1', sans-serif;
+}
+
+.date {
+  font-size: 1.4rem;
+  font-family: 'cocogoose', sans-serif;
+}
+
+.about-last {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  height: 100px;
+}
+
+.about-last-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-last img {
+  width: 20%;
+  height: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-wrapper {
+    width: 100%;
+    top: 200px;
+  }
+
+  .about-us,
+  .contact {
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  .about-quote {
+    font-size: 1.2rem;
+  }
+
+  .about-goal {
+    font-size: 2rem;
+  }
+
+  .about-ideal {
+    line-height: 1.5rem;
+    padding: 10px;
+    margin: 20px auto;
+    width: 60%;
+    border: 3px solid #d3d3d3;
+    margin-bottom: 30px;
+    font-family: 'cocogoose1', sans-serif;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #d3d3d3, -5px -5px 5px #d3d3d3;
+  }
+
+  .title::after {
+    content: '';
+    position: absolute;
+    width: 10%;
+    background-color: #ec5242;
+    transform: translate(-50%, -50%);
+    left: 48%;
+    height: 1px;
+    margin: 5px 25px;
+  }
+
+  .past-activities {
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .past-activities p {
+    font-family: 'cocogoose1', sans-serif;
+    font-size: 0.8rem;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .activities-details {
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0;
+  }
+
+  .about-last {
+    padding: 30px;
+    height: 150px;
+    text-align: center;
+    display: block;
+    position: relative;
+  }
+
+  .about-last-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 20px;
+    margin-left: 100px;
+    position: absolute;
+    left: 20%;
+  }
+
+  .last img {
+    width: 20%;
+    height: 120px;
+  }
+}

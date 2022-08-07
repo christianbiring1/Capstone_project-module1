@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[You can see the live Demo of the project here](https://christianbiring1.github.io/Capstone_project-module1/)
+[You can check the live demo of my project here](https://christianbiring1.github.io/Capstone_project-module1/)
 
 ### Prerequisites
 
